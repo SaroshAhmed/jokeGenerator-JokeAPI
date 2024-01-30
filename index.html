@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="contain">
+            <h1 class="heading1"> JOKE GENERATOR  <img src="robot.png" class="roboImg"></h1><br>
+            <label for="jokeList" class="catClass">SELECT A CATEGORY</label><br>
+       <br> <select name="jokeList" id="jokeList" class="selectClass">
+            <option value="programming"> Programming</option>
+            <option value="spooky">Spooky</option>
+            <option value="puns">Puns</option>
+            <option value="misc">Misc</option>
+        </select><br>
+       
+        <br><button class="buttonClass" id="genButton" onclick="jokeGenerator()">Select</button><br>
+        <div class="paraClass">
+        <br><p id="jokePara" class="jokePara"></p><br>
+        <p id="jokePara2" class="jokePara2"></p>
+    </div>
+    <br><p class="linkClass" id="linkClass"> by github.com/SaroshAhmed</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
